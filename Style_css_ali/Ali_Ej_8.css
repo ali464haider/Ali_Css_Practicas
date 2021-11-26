@@ -1,0 +1,24 @@
+p{
+    position: absolute;
+    top: 0%;
+    border: 1px solid darkblue;
+    background-color: #59DFDF;
+    width: 95px;
+    height: 75px;
+    padding-top: 20px;
+}
+.d1>p{
+    left: 0px;
+}
+#d1>p{
+    left: 120px;
+}
+.d2>p{
+    left: 245px;
+}
+#d2>p{
+    left: 370px;
+}
+.d3>p{
+    left: 495px;
+}
