@@ -1,0 +1,45 @@
+body{
+    margin: 0%;
+    padding: 2%;
+    background-image: url(https://aulavirtual33.educa.madrid.org/ies.elcanaveral.mostoles/pluginfile.php/78526/mod_assign/intro/baraja.jpg);
+}
+p{
+    border: 1px solid black;
+    height: 110px;
+    width: 70px;
+    position:absolute;
+    padding: 0.5%;
+    top: 0%;
+    margin: 10%;
+    border-radius: 5px;
+}
+.a{
+    left: 0px;
+    background-color: red;
+    z-index: 0;
+    transform: rotate(-40deg);
+}
+.k{
+    left: 11px;
+    background-color: green;
+    z-index: 2;
+    transform: rotate(-25deg);
+}
+.q{
+    left: 30px;
+    background-color: blue;
+    z-index: 3;
+    transform: rotate(-12deg);
+}
+.j{
+    left: 48px;
+    background-color: brown;
+    z-index: 4;
+    transform: rotate(-5deg);
+}
+.diez{
+    left: 65px;
+    background-color: cornflowerblue;
+    z-index: 5;
+    transform: rotate(5deg);
+}
