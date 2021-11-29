@@ -14,10 +14,10 @@ p{
     border-radius: 5px;
 }
 .a{
-    left: 0px;
+    left: -5px;
     background-color: red;
     z-index: 0;
-    transform: rotate(-40deg);
+    transform: rotate(-42deg);
 }
 .k{
     left: 11px;
