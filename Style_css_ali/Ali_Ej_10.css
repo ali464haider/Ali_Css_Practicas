@@ -1,0 +1,30 @@
+body{
+	padding: 100px;
+	background-color: red;
+}
+p{
+	text-align: center;
+	height: 80px;
+	width: 200px;
+	padding: 10px;
+	position: absolute;
+}
+.primera{
+	left: 3%;
+	transform: rotate(-30deg);
+	height: 150px;
+	background-color: yellow;
+}
+.segunda{
+	left: 350px;
+	transform: skewY(20deg);
+	height: 150px;
+	background-color: yellowgreen;
+}
+.tercera{
+	left: 700px;
+	transform: scaleY(3);
+	margin-top: 5%;
+	background-color: green;
+	height: 150px;
+}
