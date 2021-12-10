@@ -3,6 +3,50 @@ body{
     margin: 0%;
     background-color: green;
 }
+@keyframes cartaa{
+    from{
+        top: 10%;
+        left: 80px;
+    }
+    to{
+        top: 10%;
+        left: 240px;
+        transform: rotate(90deg);
+    }
+}
+@keyframes animacion_carta4{
+    from{
+        top: 10%;
+        left: 80px;
+    }
+    to{
+        top: 10%;
+        left: 240px;
+        transform: rotate(180deg);
+    }
+}
+@keyframes animacion_carta6{
+    from{
+        top: 10%;
+        left: 80px;
+    }
+    to{
+        top: 10%;
+        left: 240px;
+        transform: rotate(270deg);
+    }
+}
+@keyframes animacion_carta7{
+    from{
+        top: 10%;
+        left: 80px;
+    }
+    to{
+        top: 10%;
+        left: 240px;
+        transform: rotate(320deg);
+    }
+}
 .carta{
     width: 95px;
     height: 130px;
@@ -15,8 +59,11 @@ body{
 }
 #cartaa{
     top: 10%;
-    left: 160px;
+    left: 80px;
     color: red;
+    animation-name: cartaa;
+    animation-delay: 0s;
+    animation-duration: 5s;
 }
 #cartaa .letra_inv{
     transform: rotate(180deg);
@@ -37,7 +84,10 @@ body{
 }
 #carta4{
     top: 10%;
-    left: 320px;
+    left: 80px;
+    animation-name: animacion_carta4;
+    animation-delay: 5s;
+    animation-duration: 5s;
 }
 #carta4 .letra_inv{
     transform: rotate(180deg);
@@ -72,8 +122,11 @@ body{
 }
 #carta6{
     top: 10%;
-    left: 480px;
+    left: 80px;
     color: red;
+    animation-name: animacion_carta6;
+    animation-delay: 10s;
+    animation-duration: 5s;
 }
 #carta6 .letra_inv{
     transform: rotate(180deg);
@@ -116,7 +169,10 @@ body{
 }
 #carta7{
     top: 10%;
-    left: 640px;
+    left: 80px;
+    animation-name: animacion_carta7;
+    animation-delay: 15s;
+    animation-duration: 5s;
 }
 #carta7 .letra_inv{
     transform: rotate(180deg);
