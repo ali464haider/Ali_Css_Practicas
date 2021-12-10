@@ -1,0 +1,165 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: green;
+}
+.carta{
+    width: 95px;
+    height: 130px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 3px;
+    margin: 1%;
+    background-color: white;
+    position: absolute;
+}
+#cartaa{
+    top: 10%;
+    left: 160px;
+    color: red;
+}
+#cartaa .letra_inv{
+    transform: rotate(180deg);
+    position: relative;
+    left: 0px;
+    top: 70px;
+}
+#cartaa .signo_inv{
+    position: relative;
+    left: 82px;
+    top: 35px;
+}
+#cartaa .signos{
+    position: absolute;
+    left: 36px;
+    top: 43x;
+    font-size: 35px;
+}
+#carta4{
+    top: 10%;
+    left: 320px;
+}
+#carta4 .letra_inv{
+    transform: rotate(180deg);
+    position: relative;
+    left: 0px;
+    top: 70px;
+}
+#carta4 .signo_inv{
+    position: relative;
+    left: 82px;
+    top: 35px;
+}
+#carta4 #position{
+    position: absolute;
+    font-size: 25px;
+}
+#carta4 .pica1{
+    top: 20px;
+    left: 20px;
+}
+#carta4 .pica2{
+    top: 20px;
+    left: 60px;
+}
+#carta4 .pica3{
+    top: 90px;
+    left: 20px;
+}
+#carta4 .pica4{
+    top: 90px;
+    left: 60px;
+}
+#carta6{
+    top: 10%;
+    left: 480px;
+    color: red;
+}
+#carta6 .letra_inv{
+    transform: rotate(180deg);
+    position: relative;
+    left: 0px;
+    top: 70px;
+}
+#carta6 .signo_inv{
+    position: relative;
+    left: 82px;
+    top: 35px;
+}
+#carta6 #position{
+    position: absolute;
+    font-size: 25px;
+}
+.cor1{
+    left: 20px;
+    top: 20px;
+}
+.cor2{
+    left: 20px;
+    top: 50px;
+}
+.cor3{
+    left: 20px;
+    top: 80px;
+}
+.cor4{
+    left: 60px;
+    top: 20px;
+}
+.cor5{
+    left: 60px;
+    top: 50px;
+}
+.cor6{
+    left: 60px;
+    top: 80px;
+}
+#carta7{
+    top: 10%;
+    left: 640px;
+}
+#carta7 .letra_inv{
+    transform: rotate(180deg);
+    position: relative;
+    left: 0px;
+    top: 70px;
+}
+#carta7 .signo_inv{
+    position: relative;
+    left: 82px;
+    top: 35px;
+}
+#carta7 #position{
+    position: absolute;
+    font-size: 25px;
+}
+.tre1{
+    left: 20px;
+    top: 10px;
+}
+.tre2{
+    left: 20px;
+    top: 50px;
+}
+.tre3{
+    left: 20px;
+    top: 90px;
+    transform: rotate(180deg);
+}
+.tre4{
+    left: 60px;
+    top: 10px;
+}
+.tre5{
+    left: 60px;
+    top: 50px;
+}
+.tre6{
+    left: 40px;
+    top: 25px;
+}
+.tre7{
+    left: 60px;
+    top: 90px;
+    transform: rotate(180deg);
+}
