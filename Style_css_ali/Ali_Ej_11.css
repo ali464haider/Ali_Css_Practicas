@@ -4,47 +4,71 @@ body{
     background-color: green;
 }
 @keyframes cartaa{
-    from{
+    10%{
         top: 10%;
         left: 80px;
-    }
-    to{
-        top: 10%;
-        left: 240px;
         transform: rotate(90deg);
+    }
+    50%{
+        top: 20%;
+        left: 130px;
+        transform: rotate3d(20deg);
+    }
+    100%{
+        top: 30%;
+        left: 240px;
+        transform: rotate(-42deg);
     }
 }
 @keyframes animacion_carta4{
-    from{
+    10%{
         top: 10%;
         left: 80px;
+        transform: rotate(200deg);
     }
-    to{
-        top: 10%;
-        left: 240px;
-        transform: rotate(180deg);
+    50%{
+        top: 20%;
+        left: 130px;
+        transform: rotate3d(20deg);
+    }
+    100%{
+        top: 30%;
+        left: 245px;
+        transform: rotate(-25deg);
     }
 }
 @keyframes animacion_carta6{
-    from{
+    10%{
         top: 10%;
         left: 80px;
+        transform: rotate(-180deg);
     }
-    to{
-        top: 10%;
-        left: 240px;
-        transform: rotate(270deg);
+    50%{
+        top: 20%;
+        left: 130px;
+        transform: rotate3d(20deg);
+    }
+    100%{
+        top: 30%;
+        left: 260px;
+        transform: rotate(-12deg);
     }
 }
 @keyframes animacion_carta7{
-    from{
+    10%{
         top: 10%;
         left: 80px;
+        transform: rotate(360deg);
     }
-    to{
-        top: 10%;
-        left: 240px;
-        transform: rotate(320deg);
+    50%{
+        top: 20%;
+        left: 130px;
+        transform: rotate3d(20deg);
+    }
+    100%{
+        top: 30%;
+        left: 270px;
+        transform: rotate(5deg);
     }
 }
 .carta{
@@ -86,7 +110,7 @@ body{
     top: 10%;
     left: 80px;
     animation-name: animacion_carta4;
-    animation-delay: 5s;
+    animation-delay: 0s;
     animation-duration: 5s;
 }
 #carta4 .letra_inv{
@@ -125,7 +149,7 @@ body{
     left: 80px;
     color: red;
     animation-name: animacion_carta6;
-    animation-delay: 10s;
+    animation-delay: 0s;
     animation-duration: 5s;
 }
 #carta6 .letra_inv{
@@ -171,7 +195,7 @@ body{
     top: 10%;
     left: 80px;
     animation-name: animacion_carta7;
-    animation-delay: 15s;
+    animation-delay: 0s;
     animation-duration: 5s;
 }
 #carta7 .letra_inv{
